@@ -4,7 +4,9 @@
 
 - **🤓 &nbsp;My last project**
 
-  Together with two other bootcamp alumni, I developed a web app called **wewix** that is similar to Wix, which allows users to easily create and customize their own professional-looking websites. The app is built using the Vue, Node, MongoDB, and Express frameworks, and it offers a wide range of customizable templates, design elements, and other features to help users create unique and engaging websites. Like Wix, our app is user-friendly and accessible to people of all skill levels, making it easy for anyone to create a professional-looking website without needing any coding experience. ([demo](https://wewix.onrender.com/#/) / [repo](https://github.com/Diego-Mc/wewix))
+  Together with two other bootcamp alumni, I developed a web app called **wewix** that is similar to Wix, which allows users to easily create and customize their own professional-looking websites. The app is built using the Vue, Node, MongoDB, and Express frameworks, and it offers a wide range of customizable templates, design elements, and other features to help users create unique and engaging websites. Like Wix, our app is user-friendly and accessible to people of all skill levels, making it easy for anyone to create a professional-looking website without needing any coding experience. (<a href="https://wewix.onrender.com/#/
+  " target="blank">demo</a> / <a href="https://github.com/Diego-Mc/wewix
+  " target="blank">repo</a>)
 
 - **⚡&nbsp; Fun fact**
 
@@ -22,7 +24,8 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/diego-monzon-contreras/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/diego-monzon-contreras/" height="20" width="30" /></a>
+<a href="www.linkedin.com/in/diego-monzon-contreras
+" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/diego-monzon-contreras/" height="20" width="30" /></a>
 </p>
 
 <br/>
