@@ -4,7 +4,7 @@
 
 - **🤓 &nbsp;My last project**
 
-  Together with two other bootcamp alumni, I developed a web app called **wewix** that is similar to Wix, which allows users to easily create and customize their own professional-looking websites. The app is built using the Vue, Node, MongoDB, and Express frameworks, and it offers a wide range of customizable templates, design elements, and other features to help users create unique and engaging websites. Like Wix, our app is user-friendly and accessible to people of all skill levels, making it easy for anyone to create a professional-looking website without needing any coding experience. (<a href="https://wewix.onrender.com/#/
+  Together with two other bootcamp alumni, we developed a web app called **wewix** that is similar to Wix, which allows users to easily create and customize their own professional-looking websites. The app is built using the Vue, Node, MongoDB, and Express frameworks, and it offers a wide range of customizable templates, design elements, and other features to help users create unique and engaging websites. Like Wix, our app is user-friendly and accessible to people of all skill levels, making it easy for anyone to create a professional-looking website without needing any coding experience. (<a href="https://wewix.onrender.com/#/
   " target="blank">demo</a> / <a href="https://github.com/Diego-Mc/wewix
   " target="blank">repo</a>)
 
