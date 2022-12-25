@@ -1,0 +1,17 @@
+.main-website {
+  .section-header {
+    font-size: em(32px);
+    margin-bottom: 60px;
+    line-height: 1.5;
+  }
+
+  @include for-mobile-layout {
+  }
+
+  @include for-narrow-layout {
+  }
+  @include for-normal-layout {
+  }
+  @include for-wide-layout {
+  }
+}

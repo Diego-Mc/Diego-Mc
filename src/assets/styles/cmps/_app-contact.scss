@@ -1,0 +1,50 @@
+.contact-container {
+  padding-block: 160px;
+  position: relative;
+  .footer-note {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 24px;
+    text-align: center;
+  }
+}
+.app-contact {
+  position: relative;
+  .contact-text {
+    margin: 0;
+    margin-bottom: 60px;
+    a {
+      text-decoration: underline;
+    }
+  }
+  .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    justify-content: space-between;
+    .social-link {
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  @include for-mobile-layout {
+  }
+
+  @include for-narrow-layout {
+  }
+  @include for-normal-layout {
+    &::before {
+      content: '#Contact';
+      @include page-link-title;
+    }
+    .socials {
+      flex-direction: row;
+      .social-link {
+      }
+    }
+  }
+  @include for-wide-layout {
+  }
+}

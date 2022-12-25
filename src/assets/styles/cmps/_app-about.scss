@@ -1,0 +1,46 @@
+.about-wrapper {
+  background-color: $main;
+  position: relative;
+  padding-block: 100px;
+  &::before {
+    position: absolute;
+    bottom: 100%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 64px 0 0 100vw;
+    border-color: transparent transparent transparent $main;
+  }
+  &::after {
+    position: absolute;
+    top: 100%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 64px 0 0 100vw;
+    border-color: $main transparent transparent transparent;
+  }
+}
+
+.app-about {
+  position: relative;
+  p {
+    font-size: em(16px);
+  }
+
+  @include for-mobile-layout {
+  }
+
+  @include for-narrow-layout {
+  }
+  @include for-normal-layout {
+    &::before {
+      content: '#About';
+      @include page-link-title;
+    }
+  }
+  @include for-wide-layout {
+  }
+}
