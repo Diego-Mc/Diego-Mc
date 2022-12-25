@@ -15,3 +15,7 @@
   @include for-wide-layout {
   }
 }
+
+body:has(.burger-menu.open) {
+  overflow: hidden;
+}

@@ -43,25 +43,41 @@
         Contact
       </p>
     </section>
-    <BurgerIcon class="burger" @isOpen="isBurgerOpen = $event" />
+    <BurgerIcon class="burger" v-model="isBurgerOpen" />
     <section class="burger-menu" :class="{ open: isBurgerOpen }">
       <p
+        @click="isBurgerOpen = false"
         data-nav-link="home"
         v-scroll-to="{ el: '#home', offset: -1000 }"
         class="nav-link active">
         Home
       </p>
-      <p data-nav-link="skills" v-scroll-to="'#skills'" class="nav-link">
+      <p
+        @click="isBurgerOpen = false"
+        data-nav-link="skills"
+        v-scroll-to="'#skills'"
+        class="nav-link">
         Skills
       </p>
       <p
+        @click="isBurgerOpen = false"
         data-nav-link="projects"
         v-scroll-to="{ el: '#projects', offset: 100 }"
         class="nav-link">
         Projects
       </p>
-      <p data-nav-link="about" v-scroll-to="'#about'" class="nav-link">About</p>
-      <p data-nav-link="contact" v-scroll-to="'#contact'" class="nav-link">
+      <p
+        @click="isBurgerOpen = false"
+        data-nav-link="about"
+        v-scroll-to="'#about'"
+        class="nav-link">
+        About
+      </p>
+      <p
+        @click="isBurgerOpen = false"
+        data-nav-link="contact"
+        v-scroll-to="'#contact'"
+        class="nav-link">
         Contact
       </p>
     </section>
