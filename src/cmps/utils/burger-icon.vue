@@ -36,8 +36,8 @@ label {
 
 svg {
   cursor: pointer;
-  width: 100%;
-  height: 100%;
+  width: 82px;
+  height: 82px;
   // transform: scale(200%);
 }
 

@@ -106,10 +106,9 @@
       border: 1px solid $main-dark;
       border-radius: 6px;
       transition: all 0.2s;
-    }
-
-    &:hover a {
-      background-color: $main;
+      &:hover {
+        background-color: $main;
+      }
     }
   }
 
