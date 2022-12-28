@@ -14,7 +14,7 @@
 
 <br/>
 
-- 🔭&nbsp; I’m currently working on **a portfolio website**
+- 🔭&nbsp; I’m currently working on **a React project, a dictionary app**
 
 - 🌱&nbsp; I’m currently expanding my knowledge of **React & Angular**
 
