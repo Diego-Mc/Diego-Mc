@@ -16,7 +16,7 @@ function addScrollListener() {
         document.body.offsetHeight
       ) {
         curr = 'contact'
-      } else if (scrollY >= sectionTop - sectionHeight / 3) {
+      } else if (scrollY >= sectionTop - 300) {
         curr = elSection.getAttribute('id')
       }
     })
