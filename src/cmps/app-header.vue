@@ -2,16 +2,17 @@
   <header class="app-header">
     <section class="logo" v-scroll-to="{ el: '#home', offset: -100 }">
       <svg
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
+        width="88"
+        height="110"
+        class="hover-opacity"
+        viewBox="0 0 88 110"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
         <path
-          d="M13.2305 36C17.5224 36 20.863 34.4412 23.2523 31.3235C25.6417 28.2059 26.8363 23.7941 26.8363 18.0882C26.8363 12.3824 25.6417 7.94118 23.2523 4.76471C20.863 1.58824 17.5224 0 13.2305 0H9.16358C8.44059 0 7.85449 0.586101 7.85449 1.30909V34.6909C7.85449 35.4139 8.44059 36 9.16358 36H13.2305Z"
-          fill="#03325E" />
-        <rect width="7" height="36" fill="#03325E" />
-        <rect x="28" y="28" width="8" height="8" rx="4" fill="#03325E" />
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M44 0H0V110H33V69.1416C33 54.1514 45.3123 42 60.5 42H87.9553C86.9097 18.6279 67.6304 0 44 0ZM88 76H74.5C67.0442 76 61 82.0762 61 89.5713V110H88V76Z"
+          fill="currentColor" />
       </svg>
 
       &nbsp;
@@ -21,26 +22,32 @@
       <p
         data-nav-link="home"
         v-scroll-to="{ el: '#home', offset: -100 }"
-        class="nav-link active">
-        Home
+        class="nav-link active hover-opacity">
+        {{ $t('nav.home') }}
       </p>
       <p
         data-nav-link="skills"
         v-scroll-to="{ el: '#skills', offset: -100 }"
-        class="nav-link">
-        Skills
+        class="nav-link hover-opacity">
+        {{ $t('nav.skills') }}
       </p>
-      <p data-nav-link="projects" v-scroll-to="'#projects'" class="nav-link">
-        Projects
+      <p
+        data-nav-link="projects"
+        v-scroll-to="'#projects'"
+        class="nav-link hover-opacity">
+        {{ $t('nav.projects') }}
       </p>
       <p
         data-nav-link="about"
         v-scroll-to="{ el: '#about', offset: -100 }"
-        class="nav-link">
-        About
+        class="nav-link hover-opacity">
+        {{ $t('nav.about') }}
       </p>
-      <p data-nav-link="contact" v-scroll-to="'#contact'" class="nav-link">
-        Contact
+      <p
+        data-nav-link="contact"
+        v-scroll-to="'#contact'"
+        class="nav-link hover-opacity">
+        {{ $t('nav.contact') }}
       </p>
     </section>
     <BurgerIcon class="burger" v-model="isBurgerOpen" />
@@ -50,44 +57,58 @@
         data-nav-link="home"
         v-scroll-to="{ el: '#home', offset: -1000 }"
         class="nav-link active">
-        Home
+        {{ $t('nav.home') }}
       </p>
       <p
         @click="isBurgerOpen = false"
         data-nav-link="skills"
         v-scroll-to="'#skills'"
         class="nav-link">
-        Skills
+        {{ $t('nav.skills') }}
       </p>
       <p
         @click="isBurgerOpen = false"
         data-nav-link="projects"
         v-scroll-to="{ el: '#projects', offset: 100 }"
         class="nav-link">
-        Projects
+        {{ $t('nav.projects') }}
       </p>
       <p
         @click="isBurgerOpen = false"
         data-nav-link="about"
         v-scroll-to="'#about'"
         class="nav-link">
-        About
+        {{ $t('nav.about') }}
       </p>
       <p
         @click="isBurgerOpen = false"
         data-nav-link="contact"
         v-scroll-to="'#contact'"
         class="nav-link">
-        Contact
+        {{ $t('nav.contact') }}
       </p>
     </section>
     <section class="cta">
-      <a
+      <!-- <a
         class="hero-cta btn"
         href="../../src/assets/files/resume.pdf"
         target="_blank">
         Resume
-      </a>
+      </a> -->
+      <article class="translate-btn icon-btn" @click="handleTranslate">
+        <span class="material-symbols-outlined hover-opacity"> translate </span>
+      </article>
+      <article
+        :class="{ 'dark-on': isDarkMode }"
+        class="color-mode-btn icon-btn"
+        @click="handleColorChange">
+        <span class="material-symbols-outlined light hover-opacity">
+          light_mode
+        </span>
+        <span class="material-symbols-outlined dark hover-opacity">
+          dark_mode
+        </span>
+      </article>
     </section>
   </header>
 </template>
@@ -98,10 +119,24 @@ import { appService } from '../services/app.service'
 
 export default {
   data() {
-    return { isBurgerOpen: false }
+    return { isBurgerOpen: false, isDarkMode: false }
   },
   mounted() {
     appService.addScrollListener()
+  },
+  methods: {
+    handleColorChange() {
+      this.isDarkMode = !this.isDarkMode
+      if (this.isDarkMode) document.getElementById('app').classList.add('dark')
+      else document.getElementById('app').classList.remove('dark')
+    },
+    handleTranslate() {
+      const isRtl = this.$i18n.locale === 'he'
+      this.$i18n.locale = isRtl ? 'en' : 'he'
+
+      if (isRtl) document.getElementById('app').classList.remove('rtl')
+      else document.getElementById('app').classList.add('rtl')
+    },
   },
   components: { BurgerIcon },
 }

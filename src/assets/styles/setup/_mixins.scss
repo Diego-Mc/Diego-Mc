@@ -61,5 +61,9 @@
   position: absolute;
   top: -56px;
   font-size: rem(14px);
-  color: $main-dark-opacity;
+  color: var(--main-dark-opacity);
+  direction: ltr;
+  left: 0;
+  font-family: Poppins;
+  font-size: 14px;
 }

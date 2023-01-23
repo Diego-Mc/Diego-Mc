@@ -1,16 +1,17 @@
 <template>
   <div class="contact-container app-section" id="contact">
     <section class="app-contact">
-      <h2 class="section-header">How to reach me</h2>
+      <h2 class="section-header">{{ $t('contact.header') }}</h2>
       <div class="contact-text">
         <p>
-          Thanks for stopping by, I’m currently looking for a job as a
-          Full-Stack/Front-End Developer.
+          {{ $t('contact.status') }}
         </p>
         <p>
-          If you are interested, give me a
-          <a href="tel:+97254-673-6558">call</a> or send me an
-          <a href="mailto:projkd1@gmail.com">email</a>.
+          {{ $t('contact.cta.p1') }}
+          <a href="tel:+97254-673-6558">{{ $t('contact.cta.act1') }}</a>
+          {{ $t('contact.cta.p2') }}
+          <a href="mailto:projkd1@gmail.com">{{ $t('contact.cta.act2') }}</a
+          >.
         </p>
       </div>
       <section class="socials">
@@ -39,7 +40,7 @@
       </section>
     </section>
     <section class="footer-note">
-      <small>&copy; Diego Monzon Contreras. All Rights Reserved.</small>
+      <small>&copy; {{ $t('contact.footerNote') }}</small>
     </section>
   </div>
 </template>

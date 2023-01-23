@@ -1,7 +1,7 @@
 .hero-container {
   padding-block: 64px 200px;
   @include for-normal-layout {
-    padding-block: 100px 200px;
+    padding-block: 180px 280px;
   }
 }
 
@@ -33,6 +33,15 @@
     max-width: 300px;
     order: -1;
     user-select: none;
+    position: relative;
+
+    .circle {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      color: var(--main-dark);
+    }
   }
 
   @include for-mobile-layout {
@@ -44,14 +53,18 @@
     flex-direction: row;
     text-align: left;
     gap: 96px;
+    &::before {
+      content: '#Home';
+      @include page-link-title;
+    }
     .texts {
-      .hero-text:first-of-type {
-        position: relative;
-        &::before {
-          content: '#Home';
-          @include page-link-title;
-        }
-      }
+      // .hero-text:first-of-type {
+      //   position: relative;
+      //   &::before {
+      //     content: '#Home';
+      //     @include page-link-title;
+      //   }
+      // }
       .hero-cta {
         margin-top: 0;
       }

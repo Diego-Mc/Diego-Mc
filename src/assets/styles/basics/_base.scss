@@ -5,13 +5,13 @@
 html {
   font-family: Poppins;
   line-height: 1.6;
-  color: $main-dark;
+  color: var(--main-dark);
 }
 
 body {
   font-size: rem(16px);
   margin: 0;
-  background-color: $light;
+  background-color: var(--light);
 }
 
 h1,
@@ -43,7 +43,7 @@ button,
   background-color: unset;
   font-size: em(16px);
   padding: 12px 24px;
-  border: 1px solid $main-dark;
+  border: 1px solid var(--main-dark);
   border-radius: 6px;
   cursor: pointer;
 
@@ -51,7 +51,7 @@ button,
     position: relative;
     &::before {
       content: '';
-      background-color: $main;
+      background-color: var(--main);
       position: absolute;
       inset: 0;
       border-radius: 6px;

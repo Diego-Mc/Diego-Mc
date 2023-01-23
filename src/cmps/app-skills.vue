@@ -1,7 +1,7 @@
 <template>
   <div class="skills-wrapper main-container full app-section" id="skills">
     <section class="app-skills">
-      <h2 class="section-header">What I bring to the table</h2>
+      <h2 class="section-header">{{ $t('skills.header') }}</h2>
       <div class="skills-list">
         <appSkill v-for="skill in skills" :data="skill" />
       </div>
@@ -19,24 +19,17 @@ export default {
         {
           type: 'Front-End',
           imgs: ['css', 'html', 'sass', 'js'],
-          list: ['HTML5', 'CSS3', 'SCSS/SASS', 'JavaScript ES6'],
+          list: ['HTML5', 'CSS3', 'SCSS/SASS', 'JavaScript', 'TypeScript'],
         },
         {
           type: 'Frameworks',
           imgs: ['vue', 'react', 'jquery', 'angular'],
-          list: [
-            'Vue',
-            'React',
-            'JQuery',
-            'Bootstrap',
-            'Angular',
-            'Google Apps Script',
-          ],
+          list: ['Vue', 'Vuex', 'React', 'Redux', 'JQuery', 'Bootstrap'],
         },
         {
           type: 'Back-End',
           imgs: ['node', 'express', 'php', 'mongo'],
-          list: ['NodeJS', 'Express', 'MongoDB', 'PHP'],
+          list: ['NodeJS', 'Express', 'MongoDB', 'Mongoose', 'Socket.IO'],
         },
         {
           type: 'Tools',

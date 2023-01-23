@@ -1,5 +1,5 @@
 <template>
-  <div class="menu cross menu--1">
+  <div class="menu cross menu--1 hover-opacity">
     <label>
       <input type="checkbox" @change="onToggle" :checked="modelValue" />
       <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +59,7 @@ path {
   --offset: -38;
   stroke-dasharray: var(--length) var(--total-length);
   stroke-dashoffset: var(--offset);
-  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1), stroke 1ms;
 }
 
 circle {

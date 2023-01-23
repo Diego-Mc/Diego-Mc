@@ -19,7 +19,7 @@ export default {
   font-size: 0.9em;
   border-radius: 4px;
   display: inline-block;
-  background-color: rgba(3, 50, 94, 0.1);
-  color: rgba(3, 50, 94, 0.6);
+  background-color: var(--tag-bg);
+  color: var(--main-dark-opacity);
 }
 </style>

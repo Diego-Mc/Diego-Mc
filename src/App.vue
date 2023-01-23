@@ -1,4 +1,5 @@
 <template>
+  <RouterView />
   <main class="main-container main-website">
     <appHeader class="full" />
     <appHero />

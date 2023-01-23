@@ -1,8 +1,11 @@
 .main-website {
+  background-color: var(--light);
+  color: var(--main-dark);
   .section-header {
     font-size: em(32px);
     margin-bottom: 60px;
     line-height: 1.5;
+    font-weight: 800;
   }
 
   @include for-mobile-layout {
@@ -16,6 +19,107 @@
   }
 }
 
+.hover-opacity {
+  opacity: 0.8;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+}
+
 body:has(.burger-menu.open) {
   overflow: hidden;
+}
+
+#app.rtl {
+  direction: rtl;
+  font-family: Almoni;
+  font-size: 20px;
+  p {
+    margin-block: em(16px, 20px);
+  }
+
+  .app-hero {
+    text-align: center;
+    .hero-title {
+      font-weight: 800;
+      line-height: 0.9;
+      margin-block: -14px -6px;
+    }
+  }
+
+  .app-header {
+    direction: ltr;
+    .nav-links {
+      direction: rtl;
+    }
+  }
+
+  .app-skills .skills-list {
+    direction: ltr;
+    font-family: Poppins;
+    font-size: em(16px, 20px);
+  }
+
+  .app-project {
+    .project-title {
+      font-family: Poppins;
+      direction: ltr;
+      font-size: em(24px, 20px);
+    }
+    .label-tags {
+      font-family: Poppins;
+      font-size: em(16px, 20px);
+    }
+  }
+
+  .socials .social-link {
+    direction: ltr;
+  }
+
+  @include for-normal-layout {
+    .app-hero {
+      text-align: right;
+    }
+  }
+}
+
+#app.dark {
+  --main: #5ac1ed;
+  --main-dark: #fafaff;
+  --main-dark-opacity: rgba(255, 255, 255, 0.6);
+  --tag-bg: rgba(255, 255, 255, 0.14);
+  --light: #03325e;
+
+  .skills-wrapper,
+  .about-wrapper {
+    color: var(--light);
+  }
+
+  .app-skills::before,
+  .app-about::before {
+    color: rgba(3, 50, 94, 0.6);
+  }
+  .app-header {
+    // background: var(--main-dark-opacity);
+    color: var(--light);
+
+    .cta {
+      color: var(--main-dark);
+    }
+
+    .nav-link::after {
+      box-shadow: 0 1px 0 var(--light);
+    }
+
+    .icon-btn:hover::before {
+      background-color: rgba(3, 50, 94, 0.1);
+    }
+
+    @include for-normal-layout {
+      .cta {
+        color: var(--light);
+      }
+    }
+  }
 }

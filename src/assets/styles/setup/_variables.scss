@@ -3,8 +3,16 @@ $main: #5ac1ed;
 // $main-light: #4f3a65;
 $main-dark: #03325e;
 $main-dark-opacity: rgba($main-dark, 0.4);
-$main-opacity: rgba($main, 0.2);
 $light: #fafaff;
+$tag-bg: rgba(3, 50, 94, 0.1);
+
+:root {
+  --main: #5ac1ed;
+  --main-dark: #03325e;
+  --main-dark-opacity: rgba(3, 50, 94, 0.6);
+  --tag-bg: rgba(3, 50, 94, 0.1);
+  --light: #fafaff;
+}
 
 // Breakpoints
 $mobile-breakpoint: 460px;

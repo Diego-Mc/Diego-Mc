@@ -16,10 +16,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.label-tags {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-</style>
+<style lang="scss" scoped></style>
