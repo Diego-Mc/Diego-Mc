@@ -59,24 +59,8 @@ const i18n = createI18n({
           and various frameworks and tools. I have also enjoyed tackling
           programming challenges on websites like CodeWars, using data
           structures and algorithms to find solutions.`,
-        p2: `At the age of 18, I joined the army as a non-commissioned officer
-          (NCO) in HR, temporarily setting aside my programming pursuits. As a
-          member of a team or organization, I always strive to excel in myself
-          and improve the overall performance of the group. And as such, I took
-          this job to heart and committed myself fully to it, volunteering to
-          work more than 12 hours each day. My dedication and hard work paid
-          off, and I was eventually promoted to Deputy officer and later became
-          the HR Officer of my unit, managing the HR needs of over 500 soldiers.
-          During this time, I used my problem-solving skills daily and even
-          incorporated management tools like Trello and my development knowledge
-          to write scripts that streamlined some of the manual tasks in the HR
-          office.`,
-        p3: `After completing my service, I further advanced my skills by attending
-          Coding Academy, a coding bootcamp that taught me full-stack
-          development using technologies like Vue, React, Angular, JavaScript,
-          NodeJS, MongoDb, and PHP. I really enjoyed the fast-paced nature of
-          the course with short deadlines, as I always enjoy being challenged
-          and strive to excel in everything I do.`,
+        p2: `At the age of 18, I joined the army as a non-commissioned officer (NCO) in HR. As a member of a team or organization, I always strive to improve my skills and contribute to the overall success of the group, and as such, I devoted myself fully to my role, often working more than 12 hours per day. My dedication and hard work paid off, and I was eventually promoted to Deputy officer and later became the HR Officer of my unit, managing the HR needs of over 500 soldiers. During this time, I utilized my programming knowledge to create scripts and programs that automated and streamlined some of the HR processes, effectively utilizing my problem-solving skills and technical expertise to improve efficiency and reduce manual workload. Additionally, I integrated management tools like Trello to enhance productivity and organization to achieve optimal results.`,
+        p3: `After completing my service, I further advanced my skills by attending Coding Academy, a coding Bootcamp that taught me full-stack development using technologies like Vue, Vuex, React, Redux, SCSS, JavaScript, TypeScript, Node.js, MongoDB, and Express. I enjoyed the fast-paced nature of the course with short deadlines, as I always enjoy being challenged and strive to excel in everything I do.`,
       },
       contact: {
         header: 'How to reach me',
