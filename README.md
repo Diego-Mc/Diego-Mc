@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Diego Monzon Contreras</h1>
-<h3 align="center">A skilled and dedicated full-stack/frontend developer from Israel, with expertise in Vue, Node.js, and MongoDB. Known for being a fast learner, problem-solver, and team player.</h3>
+<h3 align="center">A skilled and dedicated full-stack/frontend developer from Israel. Known for being a fast learner, problem-solver, and team player.</h3>
 <br/>
 
 - **🤓 &nbsp;My last project**
@@ -15,8 +15,6 @@
 <br/>
 
 - 🔭&nbsp; I’m currently working on **a React project, a Twitter clone**
-
-- 🌱&nbsp; I’m currently expanding my knowledge of **React & Angular**
 
 - 📫&nbsp; You can reach me by email **projkd1@gmail.com**
 
