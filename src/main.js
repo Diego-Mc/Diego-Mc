@@ -88,7 +88,7 @@ const i18n = createI18n({
         title: 'מתכנת Full-Stack',
         location: 'מתגורר בנתניה, ישראל.',
         cta: 'קורות חיים',
-        resumeUrl: '/files/resume_he.pdf',
+        resumeUrl: '/files/resume.pdf',
       },
       skills: {
         header: 'מה אני מביא לשולחן',
