@@ -2,7 +2,7 @@
 <h3 align="center">A skilled and dedicated full-stack/frontend developer from Israel. Known for being a fast learner, problem-solver, and team player.</h3>
 <br/>
 
-- **🤓 &nbsp;My last project**
+- **🤓 &nbsp;A cool project I created**
 
   Together with two other bootcamp alumni, we developed a web app called **wewix** that is similar to Wix, which allows users to easily create and customize their own professional-looking websites. The app is built using the Vue, Node, MongoDB, and Express frameworks, and it offers a wide range of customizable templates, design elements, and other features to help users create unique and engaging websites. Like Wix, our app is user-friendly and accessible to people of all skill levels, making it easy for anyone to create a professional-looking website without needing any coding experience. (<a href="https://wewix.onrender.com/#/
   " target="blank">demo</a> / <a href="https://github.com/Diego-Mc/wewix
@@ -14,7 +14,7 @@
 
 <br/>
 
-- 🔭&nbsp; I’m currently working on **a React project, a Twitter clone**
+- 🔭&nbsp; I’m currently working on **a work schedule planner for my dad, using React+TypeScript and mongoDB**
 
 - 📫&nbsp; You can reach me by email **projkd1@gmail.com**
 
