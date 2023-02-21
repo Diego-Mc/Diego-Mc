@@ -19,6 +19,26 @@ export default {
     projects() {
       return [
         {
+          title: this.$t('projects.saderti.title'),
+          peek: this.$t('projects.saderti.peek'),
+          desc: this.$t('projects.saderti.desc'),
+          github: 'https://github.com/Diego-Mc/Saderti-Work-Planner',
+          url: 'https://www.saderti.com',
+          video: 'saderti',
+          labels: [
+            'React',
+            'TypeScript',
+            'Redux',
+            'RTK Query',
+            'NodeJS',
+            'MongoDB',
+            'Mongoose',
+            'Express',
+            'SCSS',
+            'Figma',
+          ],
+        },
+        {
           title: 'Wewix',
           peek: this.$t('projects.wewix.peek'),
           desc: this.$t('projects.wewix.desc'),
@@ -44,9 +64,10 @@ export default {
           url: 'https://twitter-u4zy.onrender.com/',
           video: 'twitter',
           labels: [
-            'TypeScript',
             'React',
+            'TypeScript',
             'Redux',
+            'RTK Query',
             'NodeJS',
             'MongoDB',
             'Mongoose',
@@ -55,6 +76,7 @@ export default {
             'SCSS',
           ],
         },
+
         // {
         //   title: 'Defined',
         //   peek: this.$t('projects.defined.peek'),

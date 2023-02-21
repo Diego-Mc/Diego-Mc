@@ -38,6 +38,11 @@ const i18n = createI18n({
           peek: 'Website clone of Twitter',
           desc: 'The clone includes the exact look and feel of Twitter and it includes the following features: Authentication, Post upload, Replies, Personal profiles, Media upload, Search, Automatic trends based on hashtags.',
         },
+        saderti: {
+          title: 'Saderti',
+          peek: 'The app for work managers',
+          desc: 'Saderti is a powerful web application that I created to help managers manage their workers and schedules. With a user-friendly interface, the app streamlines the scheduling process, allowing managers to focus on other critical tasks. I built the application (beta version) in just one week.',
+        },
         defined: {
           peek: 'A clean looking dictionary app',
           desc: 'The app allows search for word terms and/or of synonyms, in case a user is connected he can also bookmark a favorite word to have quick access to it in his profile page and he can also see his search history.',
@@ -103,6 +108,11 @@ const i18n = createI18n({
         twitter: {
           peek: 'עותק של אפליקציית הווב Twitter',
           desc: `העותק מכיל את הנראות המדויקת של האתר המקורי וממומש בו הפיצ'רים הבאים: אוטנטיקציה, העלאת פוסט, כתיבת תגובה, פרופילים אישיים, שמירת פוסטים, מעקב אחרי משתמשים, עדכון בזמן אמת, שיתוף פוסטים, העלאת מדיה, חיפוש, טרנדים אוטומטיים על בסיס האשטאגים.`,
+        },
+        saderti: {
+          title: "סדר'תי",
+          peek: 'האפליקציה למנהלי משמרות',
+          desc: "סדר'תי היא אפליקציה עוצמתית שיצרתי בכדי לעזור למנהלי משמרת לנהל את העובדים שלהם ואת סידורי העבודה. לאפליקציה יש עיצוב ייחודי,פשוט ואינטואיטיבי שמסייע לנהל את יצירת הסידורים בצורה מהירה. יצרתי את האפליקציה (בגרסת הבטא) תוך שבוע בודד.",
         },
         defined: {
           peek: 'אפליקציית מילון עם עיצוב נקי',

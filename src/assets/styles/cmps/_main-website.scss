@@ -63,9 +63,11 @@ body:has(.burger-menu.open) {
 
   .app-project {
     .project-title {
-      font-family: Poppins;
+      font-family: Almoni;
+      font-weight: 800;
+      letter-spacing: 0.6px;
       direction: ltr;
-      font-size: em(24px, 20px);
+      font-size: em(32px, 20px);
     }
     .label-tags {
       font-family: Poppins;
